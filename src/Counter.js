@@ -1,6 +1,7 @@
 import { atom, useAtom } from "jotai";
 
 const countAtom = atom(0);
+countAtom.debugLabel = "countAtom";
 
 const Count = ({ className }) => {
   const [count] = useAtom(countAtom);
