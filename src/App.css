@@ -1,12 +1,14 @@
 .App {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   background: papayawhip;
 }
 
 .Counter {
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,5 +17,21 @@
 
 .Count {
   padding: 0 15px;
+}
+
+.Search {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 30px;
+}
+
+.FilterInput {
+  font-size: large;
+  padding: 15px;
+  width: 100%;
+}
+
+.PokemonTable {
+  width: 100%;
 }
 
